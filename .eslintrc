@@ -1,0 +1,12 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "html" // 校验 .vue 文件中的 js 代码
+    ],
+    "rules": {
+        "no-new": "off"
+    },
+    "parserOptions": {
+        "parser": "babel-eslint" // 实时代码审查
+    }
+}
